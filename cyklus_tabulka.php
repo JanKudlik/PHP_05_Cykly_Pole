@@ -37,7 +37,8 @@ $city = array(
 	"Austria" => "Vienna",
 	"Poland"=>"Warsaw"
 );
-
-//reseni
-
+foreach($city as $country => $capital)
+{
+echo $country ." - ". $capital ."\n "."<br>";
+}
 ?>
